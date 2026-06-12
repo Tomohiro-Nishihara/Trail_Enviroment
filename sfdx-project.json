@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Trail_Enviroment",
+  "namespace": "",
+  "sfdcLoginUrl": "https://orgfarm-4014944fd5-dev-ed.develop.my.salesforce.com",
+  "sourceApiVersion": "66.0"
+}
