@@ -11,4 +11,8 @@ public with sharing class democlass_test {
         case newcase = new case(Subject ='hi there');
         insert newcase;
     }
+@TestSetup
+static void makeData(){
+    
+}
 }
