@@ -6,5 +6,6 @@
     "**/.sfdx": true
   },
   "xml.preferences.showSchemaDocumentationType": "none",
-  "salesforcedx-vscode-apex-testing.restore-previous-results": false
+  "salesforcedx-vscode-apex-testing.restore-previous-results": false,
+  "vibes.salesforce.defaultOrg": "uyu"
 }

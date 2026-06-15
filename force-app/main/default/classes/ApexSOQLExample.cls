@@ -8,6 +8,8 @@ public with sharing class ApexSOQLExample {
     Map<id, Lead> myMap = new Map<Id, Lead>([select AnnualRevenue, LeadSource,
 CleanStatus, Address, Company from lead WHERE LeadSource IN : accountTypes]);
     
+
+//コミットテスト
     public void sfdsfsd(){
         acclist = [select id, AnnualRevenue, CleanStatus, Address, Company from lead where AnnualRevenue = :xx];
         

@@ -16,7 +16,6 @@ public with sharing class Hairetsu {
         integer ww = myList2.get(3);
     System.debug(ww);}
     
-    
     //セットは重複不可　必ず値が一位であることを保証する 順序はない
     public void Set_Test() {
         set<String> myList3 = new set<String>();
@@ -33,7 +32,6 @@ public with sharing class Hairetsu {
     }
     
     
-    
     //マップはキーと値のペアでデータを格納する　キーは重複不可　順序はない
     public void Map_Test() {
         Map<String, decimal> myMap = new Map<String, decimal>();
@@ -45,6 +43,5 @@ public with sharing class Hairetsu {
         myMap.put('Banana', 3);
         system.debug(myMap);
     }
-    
     
 }
